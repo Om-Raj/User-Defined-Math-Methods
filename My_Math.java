@@ -3,13 +3,10 @@ public class My_Math
 {
     public static double ceil(double n)
     {
-        double x= n%1;
-        double var;
-        if (x==0)
-            var=(long)n;
+        if (n%1==0)
+            return (long)n;
         else
-            var=(long)(n+1);
-        return var;
+            return (long)(n+1);
     }
     public static double floor(double n)
     {
