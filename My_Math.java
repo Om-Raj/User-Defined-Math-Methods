@@ -10,8 +10,7 @@ public class My_Math
     }
     public static double floor(double n)
     {
-        double var = (long)n;
-        return var;
+        return (long)n;
     }
     public static double abs(double n)
     {
