@@ -28,4 +28,12 @@ public class My_Math
     {
         return a<b?a:b;
     }
+    public static long max(long a, long b)
+    {
+        return a>b?a:b;
+    }
+    public static double max(double a, double b)
+    {
+        return a>b?a:b;
+    }
 }
