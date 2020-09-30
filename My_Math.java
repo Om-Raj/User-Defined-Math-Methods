@@ -1,7 +1,7 @@
 public class My_Math
 
 {
-    public final double pi = 3.1415926535897932;
+    public final double PI = 3.1415926535897932;
     public static double ceil(double n)
     {
         if (n%1==0)
@@ -19,5 +19,13 @@ public class My_Math
             return n*-1;
         else
             return n;
+    }
+    public static long min(long a, long b)
+    {
+        return a<b?a:b;
+    }
+    public static double min(double a, double b)
+    {
+        return a<b?a:b;
     }
 }
