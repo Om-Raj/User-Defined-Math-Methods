@@ -1,6 +1,7 @@
 public class My_Math
 
 {
+    /* Global Constant Declaration */
     public final double PI = 3.1415926535897932;
     public static double ceil(double n)
     {
