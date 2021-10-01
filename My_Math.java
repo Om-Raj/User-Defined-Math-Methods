@@ -24,6 +24,7 @@ public class My_Math
         else
             return n;
     }
+    /* Equivalent of Math.min() */
     public static long min(long a, long b)
     {
         return a<b?a:b;
