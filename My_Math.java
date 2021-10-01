@@ -16,6 +16,7 @@ public class My_Math
     {
         return (long)n;
     }
+    /* Equivalent of Math.abs() */
     public static double abs(double n)
     {
         if (n < 0)
