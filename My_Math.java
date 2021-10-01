@@ -3,6 +3,7 @@ public class My_Math
 {
     /* Global Constant Declaration */
     public final double PI = 3.1415926535897932;
+    /* Equivalent to Math.ceil() */
     public static double ceil(double n)
     {
         if (n%1==0)
