@@ -11,6 +11,7 @@ public class My_Math
         else
             return (long)(n+1);
     }
+    /* Equivalent of Math.floor() */
     public static double floor(double n)
     {
         return (long)n;
