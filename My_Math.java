@@ -34,6 +34,7 @@ public class My_Math
     {
         return a<b?a:b;
     }
+    /* Equivalent of Math.max() */
     public static long max(long a, long b)
     {
         return a>b?a:b;
