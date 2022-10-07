@@ -29,6 +29,7 @@ public class My_Math
     {
         return a<b?a:b;
     }
+    /* Equivalent of Math.min() */
     public static double min(double a, double b)
     {
         return a<b?a:b;
@@ -41,4 +42,5 @@ public class My_Math
     {
         return a>b?a:b;
     }
+
 }
